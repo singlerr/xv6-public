@@ -29,3 +29,7 @@ SYSCALL(getpid)
 SYSCALL(sbrk)
 SYSCALL(sleep)
 SYSCALL(uptime)
+SYSCALL(dump_physmem_info)
+SYSCALL(vtop);
+SYSCALL(phys2virt)
+SYSCALL(tlbinfo)
